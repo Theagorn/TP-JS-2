@@ -53,4 +53,5 @@ const pme = new Pme (
     20000,
     50000);
 
+
 pme.bilanAnnuel();
