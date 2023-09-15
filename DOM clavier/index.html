@@ -7,7 +7,40 @@
 </head>
 <body>
     
-    <script src="IMC.js"></script>
+    <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <br><br>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+    
+        <label for="message">Message :</label>
+        <textarea id="monTextArea" name="message" rows="4" cols="50" required></textarea>
+        <br><br>
+    
+        <input type="submit" value="Envoyer">
+        <br><br>
+
+        <label for="message">Retour :</label>
+        <label id="affichage" name="message"></label>
+        <br><br>
+
+        <p>--------------------------------------------------------------------------------------------------------------------------------------</p>
+        <br><br>
+
+        <label for="message">Exemple textarea exercice 2 :</label>
+        <textarea name="message" id="secondTextArea" rows="4" cols="50" required></textarea>
+        <br><br>
+    
+        <input type="submit" id="boutonADesactiver" value="Envoyer">
+
+    </form>
+
+
+
+    <script src="clavier1.js"></script>
 
 </body>
 </html>
